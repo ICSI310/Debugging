@@ -9,20 +9,29 @@ public class Main
   public static void main(String[] args) 
   {
     int classSize = 5;
-    //String filename = "testLog.txt"
+    Student[] students = new Student[classSize];
+    
+    String filename = "testLog.txt";
       
-    /*BufferedReader classList = null;
+    BufferedReader classList = null;
     Writer outputFile = null;
-    String[] students = new String[classSize];
+    
     
     // open file
     try 
     {
       FileReader filepath = new FileReader("fakeClassList.txt");
       classList= new BufferedReader (filepath);
+      // add file reader for testLog.txt
+      
+      // construct student list based on fakeClassList.txt
       
       // read and parse todaysMeet log
       
+      // ignore every odd numbered line
+      // parse content lines
+      //line format 1:19pm, Tues, Feb 2, 2016 by JamesBond
+      // look for nickname from fakeClassList.txt in testLog.txt
     }
     catch (Exception ex)
     {
@@ -36,17 +45,17 @@ public class Main
     
     
     // write to file
-    try {
+    /*try {
         outputFile = new BufferedWriter(new OutputStreamWriter(
           new FileOutputStream("participation.txt"), "utf-8"));
-        for (int i = 0; i < newClassSize; i++) {
-          outputFile.write(students[i].toString;
+        for (int i = 0; i < classSize; i++) {
+          outputFile.write(students[i].toString());
         }
       } catch (IOException ex) {
         // report
       } finally {
         try {outputFile.close();} catch (Exception ex) {}
-      }  */
+      }*/
     
     
     
@@ -55,7 +64,7 @@ public class Main
     // test students
     students[0] = new Student("James", "Bond");
     students[1] = new Student("Jackie", "Chan");
-    students[2] = new Student ("Chuck", "Norris");
+    students[2] = new Student("Chuck", "Norris");
     students[3] = new Student("Guy", "Cortesi");
     students[4] = new Student("Darth", "Vader");
     
