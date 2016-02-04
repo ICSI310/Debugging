@@ -1,0 +1,11 @@
+Bond	James	JamesBond
+Chan	Jackie	JackieChan
+Norris	Chuck	ChuckNorris
+Cortesi	Guy	GuyCortesi
+Vader	Darth	DarthVader
+
+
+
+
+
+

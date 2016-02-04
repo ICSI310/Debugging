@@ -51,6 +51,7 @@ public void setnumberOfContributions(int number) {
  // adds a contribution
 public void addContribution() {
   this.numberOfContributions++;
+  this.numberOfContributions++;
 }
 
 public String toString() {
