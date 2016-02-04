@@ -1,21 +1,21 @@
 public class Student {
 
  // Variables/Properties
- private String firstName = new String
- private String lastName = new STring
- private int numberOfContributions
+ private String firstName = new String();
+ private String lastName = new String();
+ private int numberOfContributions;
  
  // Constructors
  public Student() {
-  this.firstName = "firstName"
- this.lastName = "lastName"
- this.numberOfContributions = 0
+  this.firstName = "firstName";
+ this.lastName = "lastName";
+ this.numberOfContributions = 0;
  }
  
- public Student(first, last)
-   self.firstName = first
-   self.lastName = last
-   this.numberOfContributions = 0
+ public Student(String first, String last) {
+   this.firstName = first;
+   this.lastName = last;
+   this.numberOfContributions = 0;
 }
  
  // Methods
@@ -54,7 +54,7 @@ public void addContribution() {
 }
 
 public String toString() {
-  return (this.lastName + this.firstName + this.numberOfContributions);
+  return (this.lastName + ", " + this.firstName + ", " + this.numberOfContributions);
 }
 
 }
