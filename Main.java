@@ -11,6 +11,22 @@ public class Main
     int classSize = 5;
     Student[] students = new Student[classSize];
     
+    
+    int evens[] = new int[classSize];
+    
+    System.out.println("start loop");
+    for (int i=0; i < classSize; i++) {
+      evens[i] = i * 2;
+      System.out.println(evens[i]); 
+    }
+    System.out.println("after loop");
+    System.out.println(evens[2]);
+    /*
+    
+    
+    
+    
+    
     String filename = "testLog.txt";
       
     BufferedReader classList = null;
@@ -55,7 +71,7 @@ public class Main
         // report
       } finally {
         try {outputFile.close();} catch (Exception ex) {}
-      }*/
+      }
     
     
     
@@ -83,7 +99,7 @@ public class Main
     // print for testing
     for (int i = 0; i < 5; i++) {
       System.out.println(students[i].toString());
-    }
+    }*/
     
     
   } // main
