@@ -12,15 +12,20 @@ public class Main
     Student[] students = new Student[classSize];
     
     
-    int evens[] = new int[classSize];
+    int numbers[][] = new int[classSize][classSize];
     
     System.out.println("start loop");
-    for (int i=0; i < classSize; i++) {
-      evens[i] = i * 2;
-      System.out.println(evens[i]); 
+    for (int i=1; i <= classSize; i++) {
+      for (int j=1; j <= classSize; j++) {
+        numbers[i-1][j-1] = i * j;
+        System.out.print(numbers[i-1][j-1] + " ");
+      }
+      System.out.println();
     }
     System.out.println("after loop");
-    System.out.println(evens[2]);
+    
+    
+    
     /*
     
     
